@@ -1,0 +1,78 @@
+
+.todolist{
+    width: 400px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10%;
+
+}
+.todolist form {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.todolist form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.todolist form button {
+    background-color: black;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.todolist form button:hover {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}
+
+.todolist ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todolist li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todolist li input[type="checkbox"] {
+    margin-right: 1rem;
+}
+
+.todolist li span {
+    font-size: 16px;
+    flex: 1;
+}
+
+.todolist li button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.todolist li button:hover {
+    background-color: white;
+    color: black;
+    border: solid 1px black;
+}

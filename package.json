@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "react-scripts start"
   },
   "dependencies": {
+    "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.9.0"
@@ -17,6 +19,19 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
+    "sass": "^1.59.3",
     "vite": "^4.1.0"
-  }
+  },
+  "description": "Créez un compteur avec deux boutons : un pour augmenter le compteur et un pour le diminuer. Utilisez useReducer pour gérer l'état du compteur.",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FilleDeZeus/Exos_8mars.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FilleDeZeus/Exos_8mars/issues"
+  },
+  "homepage": "https://github.com/FilleDeZeus/Exos_8mars#readme"
 }
